@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve-cypress": "node server.js",
+    "serve": "json-server --watch books.json --port 8080"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "nodemon": "^2.0.19"
+  }
+}
